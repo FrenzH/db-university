@@ -12,3 +12,8 @@ WHERE `cfu` > 10 ;
 SELECT *
 FROM `students`
 WHERE `date_of_birth` <= '1992-10-20';
+
+4th REQUEST :
+SELECT *
+FROM `courses`
+WHERE `period` = 'I semestre' AND `year` = 1 ;
