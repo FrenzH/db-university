@@ -1,0 +1,6 @@
+1st REQUEST :
+SELECT *
+FROM `students`
+WHERE `date_of_birth` LIKE '1990%';
+
+2nd REQUEST :
