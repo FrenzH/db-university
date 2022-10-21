@@ -1,0 +1,7 @@
+GROUPED BY QUERIES:
+
+1ST REQUEST:
+
+SELECT COUNT(*),YEAR(`enrolment_date`) AS `registration_date`
+FROM `students`
+GROUP BY YEAR(`enrolment_date`);
