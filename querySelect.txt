@@ -3,6 +3,12 @@ SELECT *
 FROM `students`
 WHERE `date_of_birth` LIKE '1990%';
 
+or
+
+SELECT *
+FROM `students`
+WHERE YEAR(`date_of_birth`)=1990;
+
 2nd REQUEST :
 SELECT *
 FROM `courses`
