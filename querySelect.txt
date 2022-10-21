@@ -48,6 +48,6 @@ SELECT COUNT(`id`) AS `departments_number`
 FROM `departments`;
 
 8th REQUEST :
-SELECT *
+SELECT COUNT(*) AS `teachers_number_without_phone_number`
 FROM `teachers`
 WHERE `phone`IS null ;
