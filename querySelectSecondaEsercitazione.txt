@@ -15,3 +15,7 @@ GROUP BY `office_address`;
 
 
 3RD REQUEST :
+
+SELECT AVG(`vote`) AS `vote_average` , `exam_id` AS `university_round`
+FROM `exam_student`
+GROUP BY `exam_id`;
