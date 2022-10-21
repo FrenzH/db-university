@@ -44,7 +44,7 @@ FROM `degrees`
 WHERE `level` = 'magistrale';
 
 7th REQUEST :
-SELECT COUNT(*)
+SELECT COUNT(`id`) AS `departments_number` 
 FROM `departments`;
 
 8th REQUEST :
