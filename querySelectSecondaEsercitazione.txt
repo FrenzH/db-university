@@ -26,3 +26,11 @@ SELECT COUNT(`id`) AS `degrees_number`, `department_id`
 FROM `degrees`
 GROUP BY `department_id`;
 
+
+
+JOIN QUERIES :
+
+1ST REQUEST :
+
+
+
